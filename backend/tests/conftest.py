@@ -15,6 +15,7 @@ collection, so the constant would already be frozen to the real
 import os
 import shutil
 import tempfile
+import pytest 
 
 # Every test-created file (test_documents.py, test_extraction.py,
 # test_notes.py, test_delete_document.py all write real files to
@@ -25,8 +26,6 @@ import tempfile
 # the entire suite finishes.
 _TEST_UPLOAD_DIR = tempfile.mkdtemp(prefix="studytime-test-uploads-")
 os.environ["UPLOAD_DIR"] = _TEST_UPLOAD_DIR
-
-import pytest
 
 
 @pytest.fixture(scope="session", autouse=True)
