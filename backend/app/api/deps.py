@@ -30,7 +30,14 @@ def get_current_user(
     if subject is None:
         raise credentials_exception
 
-    user = db.get(User, int(subject))
+    # A token whose subject isn't a number (e.g. "abc") would make int()
+    # crash with a 500. Treat it as an invalid token and return 401 instead.
+    try:
+        user_id = int(subject)
+    except (TypeError, ValueError):
+        raise credentials_exception from None
+
+    user = db.get(User, user_id)
     if user is None:
         raise credentials_exception
 
