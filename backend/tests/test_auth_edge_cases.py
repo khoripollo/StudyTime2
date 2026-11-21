@@ -1,3 +1,6 @@
+# AI-generated: written by the studytime-tester agent (OpenCode) on Nov 10, 2026,
+# using the studytime-test skill (.opencode/skills/studytime-test/SKILL.md).
+# Process and results: docs/verification/verification-rationale.md
 """Token-validation and signup/login edge cases for the auth surface.
 
 Complements test_auth.py, which covers the happy path plus obvious

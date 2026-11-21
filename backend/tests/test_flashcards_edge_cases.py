@@ -1,3 +1,6 @@
+# AI-generated: written by the studytime-tester agent (OpenCode) on Nov 10, 2026,
+# using the studytime-test skill (.opencode/skills/studytime-test/SKILL.md).
+# Process and results: docs/verification/verification-rationale.md
 """Review-flow edge cases for flashcards.
 
 Complements test_flashcards.py with the due-now boundary, a failing review

@@ -1,3 +1,6 @@
+# AI-generated: written by the studytime-tester agent (OpenCode) on Nov 10, 2026,
+# using the studytime-test skill (.opencode/skills/studytime-test/SKILL.md).
+# Process and results: docs/verification/verification-rationale.md
 """AUTO_GENERATE_* chaining in app.workers.tasks.extract_document_text.
 
 The extraction task optionally chains summarization / flashcard / practice

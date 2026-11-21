@@ -1,3 +1,6 @@
+# AI-generated: written by the studytime-tester agent (OpenCode) on Nov 10, 2026,
+# using the studytime-test skill (.opencode/skills/studytime-test/SKILL.md).
+# Process and results: docs/verification/verification-rationale.md
 """Upload limits and the manual generation triggers for documents.
 
 Complements test_documents.py / test_summary.py / test_flashcard_generation.py:

@@ -1,3 +1,6 @@
+# AI-generated: written by the studytime-tester agent (OpenCode) on Nov 10, 2026,
+# using the studytime-test skill (.opencode/skills/studytime-test/SKILL.md).
+# Process and results: docs/verification/verification-rationale.md
 """Boundary and progression cases for the pure SM-2 scheduler.
 
 Complements test_sm2.py with the grade-0/grade-1 boundary, repeated
